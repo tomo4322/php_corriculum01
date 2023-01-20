@@ -1,0 +1,182 @@
+*,*::before, *::after {box-sizing: border-box;} 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: auto;
+  width: 100%;
+}
+
+/* コンタクト・共通css*/
+.contact-container {
+    height: auto;
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+    border: 3px solid #00FFFF;
+}
+
+.form-wrapper {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_title {
+  height: 100px;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.errorMessage {
+  padding: 10px 130px;
+}
+
+.error {
+  color: red;
+  font-size: 25px;
+  text-align: left;
+}
+
+.contact-table {
+  padding: 20px 80px 0 80px;
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-body {
+  text-align: left;
+  padding-left: 10px;
+}
+
+
+.dataTable {
+  padding: 10px 20px;
+  height: auto;
+  width: auto;
+  table-layout:   auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dataTable th {
+  color: white;
+  background:rgba(0,0,0,0.9);
+}
+
+th {
+  width: 200px;
+  height: 65px;
+	border: 1px solid black;
+}
+
+td {
+  width: 400px;
+  height: 65px;
+	border: 1px solid black;
+}
+
+table, input {
+  width: 95%;
+  height: 70%;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 98%;
+  height: 90%;
+}
+
+
+.dataTable td {
+  color: black;
+  background:rgba(192,192,192,0.85);
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+.delete a:hover {
+  color: red;
+  opacity: 0.7;
+}
+
+
+
+/* 確認画面 */
+
+.submit {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.submit .btn {
+  width: 100px;
+  height: 50px;
+}
+
+.submit-confirm {
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+.submit-confirm:hover {
+  opacity: 0.6;
+}
+
+.confirmMessage {
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+
+/* 完了画面 */
+
+.complete-container {
+  height: 800px;
+  width: 70%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.complete_title {
+  font-size: 50px;
+}
+
+
+.completeText{
+  text-align: center;
+  color: black;
+}
+
+.thanksMessage {
+  margin: 100px auto;
+}
+
+.completeBtn a {
+  font-size: 40px;
+  padding: 20px auto;
+}
